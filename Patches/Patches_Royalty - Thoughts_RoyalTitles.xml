@@ -1,0 +1,88 @@
+<Patch>
+
+	<!-- GainedTitle -->
+
+    <Operation Class="PatchOperationReplace">
+		<xpath>*/ThoughtDef[defName = "GainedTitle"]/durationDays</xpath>
+		<value>
+			<durationDays>30</durationDays>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThoughtDef[defName = "GainedTitle"]/stages/li[1]/baseMoodEffect</xpath>
+		<value>
+			<baseMoodEffect>10</baseMoodEffect>
+		</value>
+	</Operation>
+	
+	<!-- LostTitle -->
+
+    <Operation Class="PatchOperationReplace">
+		<xpath>*/ThoughtDef[defName = "LostTitle"]/durationDays</xpath>
+		<value>
+			<durationDays>30</durationDays>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThoughtDef[defName = "LostTitle"]/stages/li[1]/baseMoodEffect</xpath>
+		<value>
+			<baseMoodEffect>-10</baseMoodEffect>
+		</value>
+	</Operation>
+	
+	<!-- TitleApparelRequirementNotMet -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThoughtDef[defName = "TitleApparelRequirementNotMet"]/stages/li[1]/baseMoodEffect</xpath>
+		<value>
+			<baseMoodEffect>-10</baseMoodEffect>
+		</value>
+	</Operation>
+	
+	<!-- TitleApparelMinQualityNotMet -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThoughtDef[defName = "TitleApparelMinQualityNotMet"]/stages/li[1]/baseMoodEffect</xpath>
+		<value>
+			<baseMoodEffect>-4</baseMoodEffect>
+		</value>
+	</Operation>
+	
+	<!-- TitleThroneroomRequirementsNotMet -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThoughtDef[defName = "TitleThroneroomRequirementsNotMet"]/stages/li[1]/baseMoodEffect</xpath>
+		<value>
+			<baseMoodEffect>-7</baseMoodEffect>
+		</value>
+	</Operation>
+	
+	<!-- TitleBedroomRequirementsNotMet -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThoughtDef[defName = "TitleBedroomRequirementsNotMet"]/stages/li[1]/baseMoodEffect</xpath>
+		<value>
+			<baseMoodEffect>-4</baseMoodEffect>
+		</value>
+	</Operation> 
+	
+	<!-- TitleNoThroneRoom -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThoughtDef[defName = "TitleNoThroneRoom"]/stages/li[1]/baseMoodEffect</xpath>
+		<value>
+			<baseMoodEffect>-15</baseMoodEffect>
+		</value>
+	</Operation>
+	
+	<!-- TitleNoPersonalBedroom -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThoughtDef[defName = "TitleNoPersonalBedroom"]/stages/li[1]/baseMoodEffect</xpath>
+		<value>
+			<baseMoodEffect>-10</baseMoodEffect>
+		</value>
+	</Operation>
+	
+	
+</Patch>
