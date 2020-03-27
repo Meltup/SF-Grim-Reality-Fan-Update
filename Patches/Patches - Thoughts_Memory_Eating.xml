@@ -3,19 +3,19 @@
 	<!-- AteLavishMeal -->
 	
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "AteLavishMeal"]/durationDays</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteLavishMeal"]/durationDays</xpath>
 		<value>
 			<durationDays>0.5</durationDays>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThoughtDef[defName = "AteLavishMeal"]</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteLavishMeal"]</xpath>
 		<value>
 			<stackLimit>1</stackLimit>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "AteLavishMeal"]/stages/li[1]/baseMoodEffect</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteLavishMeal"]/stages/li[1]/baseMoodEffect</xpath>
 		<value>
 			<baseMoodEffect>10</baseMoodEffect>
 		</value>
@@ -24,13 +24,13 @@
 	<!-- AteFineMeal -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "AteFineMeal"]/durationDays</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteFineMeal"]/durationDays</xpath>
 		<value>
 			<durationDays>0.5</durationDays>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThoughtDef[defName = "AteFineMeal"]</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteFineMeal"]</xpath>
 		<value>
 			<stackLimit>1</stackLimit>
 		</value>
@@ -39,19 +39,19 @@
 	<!-- AteAwfulMeal -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "AteAwfulMeal"]/durationDays</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteAwfulMeal"]/durationDays</xpath>
 		<value>
 			<durationDays>0.5</durationDays>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThoughtDef[defName = "AteAwfulMeal"]</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteAwfulMeal"]</xpath>
 		<value>
 			<stackLimit>1</stackLimit>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "AteAwfulMeal"]/stages/li[1]/baseMoodEffect</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteAwfulMeal"]/stages/li[1]/baseMoodEffect</xpath>
 		<value>
 			<baseMoodEffect>-3</baseMoodEffect>
 		</value>
@@ -60,19 +60,19 @@
 	<!-- AteRawFood -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "AteRawFood"]/durationDays</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteRawFood"]/durationDays</xpath>
 		<value>
 			<durationDays>0.5</durationDays>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThoughtDef[defName = "AteRawFood"]</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteRawFood"]</xpath>
 		<value>
 			<stackLimit>1</stackLimit>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "AteRawFood"]/stages/li[1]/baseMoodEffect</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteRawFood"]/stages/li[1]/baseMoodEffect</xpath>
 		<value>
 			<baseMoodEffect>-5</baseMoodEffect>
 		</value>
@@ -81,19 +81,19 @@
 	<!-- AteKibble -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "AteKibble"]/durationDays</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteKibble"]/durationDays</xpath>
 		<value>
 			<durationDays>0.5</durationDays>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThoughtDef[defName = "AteKibble"]</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteKibble"]</xpath>
 		<value>
 			<stackLimit>1</stackLimit>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "AteKibble"]/stages/li[1]/baseMoodEffect</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteKibble"]/stages/li[1]/baseMoodEffect</xpath>
 		<value>
 			<baseMoodEffect>-8</baseMoodEffect>
 		</value>
@@ -102,13 +102,13 @@
 	<!-- AteCorpse -->
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThoughtDef[defName = "AteCorpse"]</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteCorpse"]</xpath>
 		<value>
 			<stackLimit>1</stackLimit>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "AteCorpse"]/stages/li[1]/baseMoodEffect</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteCorpse"]/stages/li[1]/baseMoodEffect</xpath>
 		<value>
 			<baseMoodEffect>-10</baseMoodEffect>
 		</value>
@@ -117,20 +117,20 @@
 	<!-- AteHumanlikeMeatDirect -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "AteHumanlikeMeatDirect"]/durationDays</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteHumanlikeMeatDirect"]/durationDays</xpath>
 		<value>
 			<durationDays>1.5</durationDays>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThoughtDef[defName = "AteHumanlikeMeatDirect"]</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteHumanlikeMeatDirect"]</xpath>
 		<value>
 			<stackedEffectMultiplier>0.25</stackedEffectMultiplier>
 			<stackLimit>3</stackLimit>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "AteHumanlikeMeatDirect"]/stages/li[1]/baseMoodEffect</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteHumanlikeMeatDirect"]/stages/li[1]/baseMoodEffect</xpath>
 		<value>
 			<baseMoodEffect>-25</baseMoodEffect>
 		</value>
@@ -139,13 +139,13 @@
 	<!-- AteHumanlikeMeatDirectCannibal -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "AteHumanlikeMeatDirectCannibal"]/durationDays</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteHumanlikeMeatDirectCannibal"]/durationDays</xpath>
 		<value>
 			<durationDays>1.5</durationDays>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThoughtDef[defName = "AteHumanlikeMeatDirectCannibal"]</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteHumanlikeMeatDirectCannibal"]</xpath>
 		<value>
 			<stackedEffectMultiplier>0.25</stackedEffectMultiplier>
 			<stackLimit>1</stackLimit>
@@ -155,20 +155,20 @@
 	<!-- AteHumanlikeMeatAsIngredient -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "AteHumanlikeMeatAsIngredient"]/durationDays</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteHumanlikeMeatAsIngredient"]/durationDays</xpath>
 		<value>
 			<durationDays>1.5</durationDays>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThoughtDef[defName = "AteHumanlikeMeatAsIngredient"]</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteHumanlikeMeatAsIngredient"]</xpath>
 		<value>
 			<stackedEffectMultiplier>0.25</stackedEffectMultiplier>
 			<stackLimit>3</stackLimit>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "AteHumanlikeMeatAsIngredient"]/stages/li[1]/baseMoodEffect</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteHumanlikeMeatAsIngredient"]/stages/li[1]/baseMoodEffect</xpath>
 		<value>
 			<baseMoodEffect>-20</baseMoodEffect>
 		</value>
@@ -177,7 +177,7 @@
 	<!-- AteHumanlikeMeatAsIngredientCannibal -->
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThoughtDef[defName = "AteHumanlikeMeatAsIngredientCannibal"]</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteHumanlikeMeatAsIngredientCannibal"]</xpath>
 		<value>
 			<stackedEffectMultiplier>0.25</stackedEffectMultiplier>
 			<stackLimit>1</stackLimit>
@@ -187,19 +187,19 @@
 	<!-- AteInsectMeatDirect -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "AteInsectMeatDirect"]/durationDays</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteInsectMeatDirect"]/durationDays</xpath>
 		<value>
 			<durationDays>0.5</durationDays>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThoughtDef[defName = "AteInsectMeatDirect"]</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteInsectMeatDirect"]</xpath>
 		<value>
 			<stackLimit>1</stackLimit>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "AteInsectMeatDirect"]/stages/li[1]/baseMoodEffect</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteInsectMeatDirect"]/stages/li[1]/baseMoodEffect</xpath>
 		<value>
 			<baseMoodEffect>-3</baseMoodEffect>
 		</value>
@@ -208,19 +208,19 @@
 	<!-- AteInsectMeatAsIngredient -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "AteInsectMeatAsIngredient"]/durationDays</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteInsectMeatAsIngredient"]/durationDays</xpath>
 		<value>
 			<durationDays>0.5</durationDays>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThoughtDef[defName = "AteInsectMeatAsIngredient"]</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteInsectMeatAsIngredient"]</xpath>
 		<value>
 			<stackLimit>3</stackLimit>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "AteInsectMeatAsIngredient"]/stages/li[1]/baseMoodEffect</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteInsectMeatAsIngredient"]/stages/li[1]/baseMoodEffect</xpath>
 		<value>
 			<baseMoodEffect>-1</baseMoodEffect>
 		</value>
@@ -229,7 +229,7 @@
 	<!-- AteRottenFood -->
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThoughtDef[defName = "AteRottenFood"]</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteRottenFood"]</xpath>
 		<value>
 			<stackLimit>1</stackLimit>
 		</value>

@@ -6,11 +6,11 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/ThoughtDef[defName = "Affair"]/nullifyingTraits</xpath>
+				<xpath>Defs/ThoughtDef[defName = "Affair"]/nullifyingTraits</xpath>
 				<success>Invert</success>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>*/ThoughtDef[defName = "Affair"]</xpath>
+				<xpath>Defs/ThoughtDef[defName = "Affair"]</xpath>
 				<value>
 					<nullifyingTraits/>
 				</value>
@@ -18,13 +18,13 @@
 		</operations>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThoughtDef[defName = "Affair"]/nullifyingTraits</xpath>
+		<xpath>Defs/ThoughtDef[defName = "Affair"]/nullifyingTraits</xpath>
 		<value>
 			<li>Psychopath</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "Affair"]/stages/li[1]/baseOpinionOffset</xpath>
+		<xpath>Defs/ThoughtDef[defName = "Affair"]/stages/li[1]/baseOpinionOffset</xpath>
 		<value>
 			<baseOpinionOffset>-30</baseOpinionOffset>
 		</value>
@@ -36,11 +36,11 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/ThoughtDef[defName = "Incestuous"]/nullifyingTraits</xpath>
+				<xpath>Defs/ThoughtDef[defName = "Incestuous"]/nullifyingTraits</xpath>
 				<success>Invert</success>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>*/ThoughtDef[defName = "Incestuous"]</xpath>
+				<xpath>Defs/ThoughtDef[defName = "Incestuous"]</xpath>
 				<value>
 					<nullifyingTraits/>
 				</value>
@@ -48,7 +48,7 @@
 		</operations>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThoughtDef[defName = "Incestuous"]/nullifyingTraits</xpath>
+		<xpath>Defs/ThoughtDef[defName = "Incestuous"]/nullifyingTraits</xpath>
 		<value>
 			<li>Psychopath</li>
 		</value>
@@ -60,11 +60,11 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/ThoughtDef[defName = "Disfigured"]/nullifyingTraits</xpath>
+				<xpath>Defs/ThoughtDef[defName = "Disfigured"]/nullifyingTraits</xpath>
 				<success>Invert</success>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>*/ThoughtDef[defName = "Disfigured"]</xpath>
+				<xpath>Defs/ThoughtDef[defName = "Disfigured"]</xpath>
 				<value>
 					<nullifyingTraits/>
 				</value>
@@ -72,13 +72,13 @@
 		</operations>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThoughtDef[defName = "Disfigured"]/nullifyingTraits</xpath>
+		<xpath>Defs/ThoughtDef[defName = "Disfigured"]/nullifyingTraits</xpath>
 		<value>
 			<li>Psychopath</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "Disfigured"]/stages/li[1]/baseOpinionOffset</xpath>
+		<xpath>Defs/ThoughtDef[defName = "Disfigured"]/stages/li[1]/baseOpinionOffset</xpath>
 		<value>
 			<baseOpinionOffset>3</baseOpinionOffset>
 		</value>
@@ -91,7 +91,7 @@
 	<!-- TeetotalerVsAddict -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "TeetotalerVsAddict"]/stages/li[1]/baseOpinionOffset</xpath>
+		<xpath>Defs/ThoughtDef[defName = "TeetotalerVsAddict"]/stages/li[1]/baseOpinionOffset</xpath>
 		<value>
 			<baseOpinionOffset>-15</baseOpinionOffset>
 		</value>
@@ -106,13 +106,13 @@
 	<!-- Ugly -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "Ugly"]/stages/li[1]/baseOpinionOffset</xpath>
+		<xpath>Defs/ThoughtDef[defName = "Ugly"]/stages/li[1]/baseOpinionOffset</xpath>
 		<value>
 			<baseOpinionOffset>-15</baseOpinionOffset>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "Ugly"]/stages/li[2]/baseOpinionOffset</xpath>
+		<xpath>Defs/ThoughtDef[defName = "Ugly"]/stages/li[2]/baseOpinionOffset</xpath>
 		<value>
 			<baseOpinionOffset>-30</baseOpinionOffset>
 		</value>
@@ -121,7 +121,7 @@
 	<!-- AnnoyingVoice -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "AnnoyingVoice"]/stages/li[1]/baseOpinionOffset</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AnnoyingVoice"]/stages/li[1]/baseOpinionOffset</xpath>
 		<value>
 			<baseOpinionOffset>-20</baseOpinionOffset>
 		</value>
@@ -140,7 +140,7 @@
 	<!-- ButcheredHumanlikeCorpseOpinion -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "ButcheredHumanlikeCorpseOpinion"]/stages/li[1]/baseOpinionOffset</xpath>
+		<xpath>Defs/ThoughtDef[defName = "ButcheredHumanlikeCorpseOpinion"]/stages/li[1]/baseOpinionOffset</xpath>
 		<value>
 			<baseOpinionOffset>-5</baseOpinionOffset>
 		</value>
@@ -149,7 +149,7 @@
 	<!-- AteRawHumanlikeMeat -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "AteRawHumanlikeMeat"]/stages/li[1]/baseOpinionOffset</xpath>
+		<xpath>Defs/ThoughtDef[defName = "AteRawHumanlikeMeat"]/stages/li[1]/baseOpinionOffset</xpath>
 		<value>
 			<baseOpinionOffset>-20</baseOpinionOffset>
 		</value>
@@ -158,7 +158,7 @@
 	<!-- SoldPrisoner -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "SoldPrisoner"]/stages/li[1]/baseOpinionOffset</xpath>
+		<xpath>Defs/ThoughtDef[defName = "SoldPrisoner"]/stages/li[1]/baseOpinionOffset</xpath>
 		<value>
 			<baseOpinionOffset>-8</baseOpinionOffset>
 		</value>
@@ -167,7 +167,7 @@
 	<!-- ExecutedPrisoner -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "ExecutedPrisoner"]/stages/li[1]/baseOpinionOffset</xpath>
+		<xpath>Defs/ThoughtDef[defName = "ExecutedPrisoner"]/stages/li[1]/baseOpinionOffset</xpath>
 		<value>
 			<baseOpinionOffset>-5</baseOpinionOffset>
 		</value>
@@ -176,7 +176,7 @@
 	<!-- KilledColonist -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "KilledColonist"]/stages/li[1]/baseOpinionOffset</xpath>
+		<xpath>Defs/ThoughtDef[defName = "KilledColonist"]/stages/li[1]/baseOpinionOffset</xpath>
 		<value>
 			<baseOpinionOffset>-30</baseOpinionOffset>
 		</value>
@@ -185,7 +185,7 @@
 	<!-- KilledColonyAnimal -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThoughtDef[defName = "KilledColonyAnimal"]/stages/li[1]/baseOpinionOffset</xpath>
+		<xpath>Defs/ThoughtDef[defName = "KilledColonyAnimal"]/stages/li[1]/baseOpinionOffset</xpath>
 		<value>
 			<baseOpinionOffset>-10</baseOpinionOffset>
 		</value>
@@ -197,11 +197,11 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/ThoughtDef[defName = "OpinionOfMyLover"]/nullifyingTraits</xpath>
+				<xpath>Defs/ThoughtDef[defName = "OpinionOfMyLover"]/nullifyingTraits</xpath>
 				<success>Invert</success>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>*/ThoughtDef[defName = "OpinionOfMyLover"]</xpath>
+				<xpath>Defs/ThoughtDef[defName = "OpinionOfMyLover"]</xpath>
 				<value>
 					<nullifyingTraits/>
 				</value>
@@ -209,7 +209,7 @@
 		</operations>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThoughtDef[defName = "OpinionOfMyLover"]/nullifyingTraits</xpath>
+		<xpath>Defs/ThoughtDef[defName = "OpinionOfMyLover"]/nullifyingTraits</xpath>
 		<value>
 			<li>Psychopath</li>
 		</value>
@@ -225,11 +225,11 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>*/ThoughtDef[defName = "WantToSleepWithSpouseOrLover"]/nullifyingTraits</xpath>
+				<xpath>Defs/ThoughtDef[defName = "WantToSleepWithSpouseOrLover"]/nullifyingTraits</xpath>
 				<success>Invert</success>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>*/ThoughtDef[defName = "WantToSleepWithSpouseOrLover"]</xpath>
+				<xpath>Defs/ThoughtDef[defName = "WantToSleepWithSpouseOrLover"]</xpath>
 				<value>
 					<nullifyingTraits/>
 				</value>
@@ -237,7 +237,7 @@
 		</operations>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThoughtDef[defName = "WantToSleepWithSpouseOrLover"]/nullifyingTraits</xpath>
+		<xpath>Defs/ThoughtDef[defName = "WantToSleepWithSpouseOrLover"]/nullifyingTraits</xpath>
 		<value>
 			<li>Psychopath</li>
 		</value>
